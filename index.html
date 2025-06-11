@@ -42,9 +42,9 @@
     }
     .service-card {
       background: #f0fdf9;
-      padding: 3em 2em;
       border-radius: 18px;
       box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+      overflow: hidden;
       text-align: center;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
@@ -52,19 +52,17 @@
       transform: translateY(-8px);
       box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15);
     }
-    .service-card i {
-      font-size: 2.5em;
-      color: #007863;
-      margin-bottom: 0.5em;
+    .service-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
     }
-    .service-card h3 {
+    .service-card .label {
       font-size: 1.1em;
       background: #007863;
       color: white;
-      padding: 0.5em 1em;
-      border-radius: 8px;
-      display: inline-block;
-      margin: 0.5em 0 0 0;
+      padding: 0.8em;
+      margin: 0;
     }
     .whatsapp {
       background: #25d366;
@@ -90,48 +88,48 @@
     <h2>Servicios</h2>
     <div class="services">
       <div class="service-card">
-        <i class="fas fa-syringe"></i>
-        <h3>Aplicación de Bótox</h3>
+        <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/woman-5359940_1280.jpg" alt="Bótox" />
+        <div class="label">Aplicación de Bótox</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-vial"></i>
-        <h3>Ácido Hialurónico</h3>
+        <img src="https://cdn.pixabay.com/photo/2017/03/02/20/57/woman-2118178_1280.jpg" alt="Ácido Hialurónico" />
+        <div class="label">Ácido Hialurónico</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-kiss"></i>
-        <h3>Perfilamiento de Labios</h3>
+        <img src="https://cdn.pixabay.com/photo/2020/10/25/09/36/lips-5685523_1280.jpg" alt="Perfilamiento de Labios" />
+        <div class="label">Perfilamiento de Labios</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-walking"></i>
-        <h3>Escleroterapia para várices</h3>
+        <img src="https://cdn.pixabay.com/photo/2018/10/15/08/01/legs-3746489_1280.jpg" alt="Escleroterapia para várices" />
+        <div class="label">Escleroterapia para várices</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-weight"></i>
-        <h3>Mesoterapia para grasa localizada</h3>
+        <img src="https://cdn.pixabay.com/photo/2017/09/19/20/44/woman-2768178_1280.jpg" alt="Mesoterapia grasa localizada" />
+        <div class="label">Mesoterapia para grasa localizada</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-band-aid"></i>
-        <h3>Procedimientos menores en piel</h3>
+        <img src="https://cdn.pixabay.com/photo/2017/08/06/00/16/beauty-2581010_1280.jpg" alt="Procedimientos menores en piel" />
+        <div class="label">Procedimientos menores en piel</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-user-alt"></i>
-        <h3>Mesoterapia para caída de cabello</h3>
+        <img src="https://cdn.pixabay.com/photo/2016/11/21/12/50/hair-1847634_1280.jpg" alt="Caída de cabello" />
+        <div class="label">Mesoterapia para caída de cabello</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-water"></i>
-        <h3>Mesoterapia para hidratación y rejuvenecimiento facial</h3>
+        <img src="https://cdn.pixabay.com/photo/2016/11/21/15/46/girl-1848947_1280.jpg" alt="Hidratación facial" />
+        <div class="label">Mesoterapia para hidratación y rejuvenecimiento facial</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-thumbs-up"></i>
-        <h3>Mesoterapia para celulitis y mejora del contorno corporal</h3>
+        <img src="https://cdn.pixabay.com/photo/2018/06/20/21/27/girl-3484432_1280.jpg" alt="Celulitis y contorno corporal" />
+        <div class="label">Mesoterapia para celulitis y mejora del contorno corporal</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-hand-holding-heart"></i>
-        <h3>Mesoterapia para flacidez</h3>
+        <img src="https://cdn.pixabay.com/photo/2018/03/01/14/00/girl-3188694_1280.jpg" alt="Flacidez" />
+        <div class="label">Mesoterapia para flacidez</div>
       </div>
       <div class="service-card">
-        <i class="fas fa-spa"></i>
-        <h3>Mesoterapia para mejorar textura y cicatrices de la piel</h3>
+        <img src="https://cdn.pixabay.com/photo/2016/07/19/22/53/woman-1523959_1280.jpg" alt="Textura y cicatrices" />
+        <div class="label">Mesoterapia para mejorar textura y cicatrices de la piel</div>
       </div>
     </div>
   </section>
